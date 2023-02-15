@@ -59,7 +59,7 @@ export const Navbar = () => {
                 </div>
             </div>
             <div>
-                <div className="flex">
+                <div className="invisible md:visible ">
                 {
                 <a href="#Home" onClick={handleClick("Homepage")} className="max-[600px]:text-sm max-[200px]:text-sm max-[600px]:m-3 ml-10 text-md uppercase cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider">
                 Home

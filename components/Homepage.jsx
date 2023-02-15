@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect"
 const Homepage = () => {
   return (
     <div  className={`h-screen w-full  bg-slate-900 ${styles.anim}`}  id='Homepage'>
-      <div className="max-w-screen-xl mx-auto w-full h-full pt-24  flex flex-row justify-center items-center">  
+      <div className="max-w-screen-xl mx-auto w-full h-full pt-24  flex flex-col md:flex-row justify-center items-center">  
 
           <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-center space-y-20 max-[600px]:items-center">
                   <div className='flex flex-row'>
@@ -30,7 +30,7 @@ const Homepage = () => {
                   <button className={styles.button} role="button"><span className="text">my resume</span></button>
            </div>
 
-          <div className="hidden 2xl:flex">
+          <div className="2xl:flex">
               <div className={styles.contain}>
                 <div className={styles.ring}></div>
                 <div className={styles.ring}></div>
